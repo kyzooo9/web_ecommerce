@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,200&family=Poppins:wght@100;300&display=swap');
+
+  nav {
+    background-color: #000000;
+    position: fixed;
+    height: 8%;
+    min-width: 100%;
+    border: 1px #000000;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+img#logo {
+    padding: 10px;
+    float: left;
+    height: 30px;
+}
+#menu {
+    text-decoration: none;
+  
+    color: #fff;
+    float: left;
+    padding: 10px ;
+    overflow: hidden; /*biar keliatan rapi , menunya kalo kepanjangan gk ke bawah*/
+    display: block;
+    text-align: center;
+}
+  
+#menu1 {
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    padding: 10px;
+    overflow: hidden; /*biar keliatan rapi , menunya kalo kepanjangan gk ke bawah*/
+    display: block;
+    text-align: center;
+}
+  
+a#menu:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+div#alamat {
+  padding-top: 50px;
+  padding-right: 5%;
+  float: right;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+div#main1info{
+    float:left;
+    background-color:#Ffffff;
+    width:70%;
+    margin-top:1%;
+    margin-left: 1%;
+}
+
+div#sidebar-left {
+  float: left;
+  background-color: #9fff;
+  background-image:src="image/imgcap/Hu_Tao_Card.jpg";
+  background-position: left;
+  background-size: 300%;
+
+  width: 20%;
+  min-height: 1000px;
+  left: 0;
+}
+div#main1info {
+  float: left;
+  background-color: #fff;
+  width: 90%;
+
+  margin-top: 1%;
+  margin-left: 1%;
+}
+div#main1-content {
+  float: left;
+  background-color: #FCE9D1;
+  width:90%;
+  min-height: 1200px;
+
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+div#textcontent {
+  padding: 10px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+div#content {
+  min-width: 1000px;
+}
+div#carouselExampleIndicators{
+    position: sticky;
+    max-width:70%;
+    margin-left: 20%; 
+    margin-top: 5%;
+    
+}
+#font{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+#genrecap{
+    text-align: center;
+}
+#more {display: none;}
+#moretwo {display: none;}
+#morethree {display: none;}
+#morefour {display: none;}
+#morefive {display: none;}
+#moresix {display: none;}
